@@ -88,6 +88,3 @@ async def add(ctx, video_url: str):
         audio_url = info["url"]
     # Add the audio URL to the queue
     queue.append(audio_url)
-
-# Run the Discord client
-client.run("MTA1NTk5Njk1NzYzNTY0NTUwMQ.GFw3LI.-CgjmdtbPdwz8pzyTGLhHjRqEGEMELQheGHB5w")
